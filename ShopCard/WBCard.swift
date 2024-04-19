@@ -26,7 +26,7 @@ struct WBCard: View {
     let item: WBCardModel
     var body: some View {
         
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 5) {
             Image(.wb)
                 .resizable()
                 .frame(width: 200, height: 300)
@@ -48,12 +48,12 @@ struct WBCard: View {
                 Text(item.shopName)
                     .bold()
                     .font(.system(size: 15))
-                    .padding(EdgeInsets(top: -5, leading: 0, bottom: 10, trailing: 0))
+                    
                 
                 VStack {
                     Text(item.productName)
+                        .lineLimit(1)
                         .font(.system(size: 15))
-                        .padding(EdgeInsets(top: -5, leading: 0, bottom: 10, trailing: 0))
                         .foregroundColor(.gray)
                 }
                 
@@ -63,38 +63,38 @@ struct WBCard: View {
                 Text(.init(systemName: "star.fill"))
                     .foregroundStyle(.yellow)
                     .font(.system(size: 15))
-                    .padding(EdgeInsets(top: -10, leading: 0, bottom: 10, trailing: 0))
                 
                 Text(item.feedback)
                     .font(.system(size: 15))
-                    .padding(EdgeInsets(top: -10, leading: -5, bottom: 10, trailing: 0))
                 
                 Text(item.feedbackText)
                     .font(.system(size: 15))
                     .foregroundStyle(.gray)
-                    .padding(EdgeInsets(top: -10, leading: -5, bottom: 10, trailing: 0))
             }
             .bold()
-        }
-        
-        HStack {
+            
             Button(action: {
                 print("Кнопка нажата")
+                
             }) {
-                Image(systemName: "cart.fill")
-                    .foregroundColor(.white)
-                Text(item.btnToCartText)
-                    .foregroundStyle(.white)
-                    .bold()
+                HStack {
+                    Image(systemName: "cart.fill")
+                        .foregroundColor(.white)
+                    Text(item.btnToCartText)
+                        .foregroundStyle(.white)
+                        .bold()
+                }
             }
+            
+            
+            .frame(height: 40)
+            .frame(maxWidth: .infinity)
+            .background(.purple)
+            .cornerRadius(15)
+            .contentShape(Rectangle())
+            
         }
-        .frame(width: 200, height: 40)
-        .background(.purple)
-        .cornerRadius(15)
-        .padding(EdgeInsets(top: -10, leading: -20, bottom: 10, trailing: 0))
-        .contentShape(Rectangle())
-
-
+        .frame(width: 200)
     }
 }
 

@@ -13,6 +13,7 @@
 		5C24AF272BD12F2A00ECBE26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C24AF262BD12F2A00ECBE26 /* Preview Assets.xcassets */; };
 		5C24AF2E2BD19F7B00ECBE26 /* OzonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24AF2D2BD19F7B00ECBE26 /* OzonCard.swift */; };
 		5C24AF302BD2444100ECBE26 /* WBCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24AF2F2BD2444100ECBE26 /* WBCard.swift */; };
+		5C738EE22BD25CB200F4282E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C738EE12BD25CB200F4282E /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5C24AF262BD12F2A00ECBE26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C24AF2D2BD19F7B00ECBE26 /* OzonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzonCard.swift; sourceTree = "<group>"; };
 		5C24AF2F2BD2444100ECBE26 /* WBCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBCard.swift; sourceTree = "<group>"; };
+		5C738EE12BD25CB200F4282E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				5C24AF1F2BD12F2800ECBE26 /* ShopCardApp.swift */,
+				5C738EE12BD25CB200F4282E /* ContentView.swift */,
 				5C24AF2D2BD19F7B00ECBE26 /* OzonCard.swift */,
 				5C24AF212BD12F2800ECBE26 /* YMCard.swift */,
 				5C24AF2F2BD2444100ECBE26 /* WBCard.swift */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C24AF2E2BD19F7B00ECBE26 /* OzonCard.swift in Sources */,
+				5C738EE22BD25CB200F4282E /* ContentView.swift in Sources */,
 				5C24AF222BD12F2800ECBE26 /* YMCard.swift in Sources */,
 				5C24AF302BD2444100ECBE26 /* WBCard.swift in Sources */,
 				5C24AF202BD12F2800ECBE26 /* ShopCardApp.swift in Sources */,

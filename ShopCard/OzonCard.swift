@@ -28,7 +28,6 @@ struct OzonCard: View {
                         .font(.title2)
                         .foregroundStyle(.blue)
                         .bold()
-                        .padding(EdgeInsets(top: 5, leading: 0, bottom: 0, trailing: 0))
                     
                     Spacer().frame(height: 1)
                     
@@ -44,13 +43,11 @@ struct OzonCard: View {
                         .foregroundStyle(.gray)
                         .bold()
                         .strikethrough()
-                        .padding(EdgeInsets(top: -5, leading: 0, bottom: 10, trailing: 0))
                     
                     Spacer().frame(height: 0)
                 }
             }
             .padding(.trailing)
-            .padding(EdgeInsets(top: 5, leading: 10, bottom: -20, trailing: 0))
             
             Image(.ozon)
                 .resizable()
@@ -58,8 +55,8 @@ struct OzonCard: View {
                 .cornerRadius(15)
                 .foregroundColor(.red)
                 .padding()
-                .padding(EdgeInsets(top: -5, leading: 0, bottom: -5, trailing: 10))
         }
+        .padding()
         .overlay {
             RoundedRectangle(cornerRadius: 16)
                 .fill(LinearGradient(gradient: Gradient(colors: isSelected ? [.red, .white] : [.blue, .white]), 
