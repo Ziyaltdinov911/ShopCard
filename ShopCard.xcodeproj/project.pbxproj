@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		5C24AF202BD12F2800ECBE26 /* ShopCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24AF1F2BD12F2800ECBE26 /* ShopCardApp.swift */; };
-		5C24AF222BD12F2800ECBE26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24AF212BD12F2800ECBE26 /* ContentView.swift */; };
+		5C24AF222BD12F2800ECBE26 /* YMCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24AF212BD12F2800ECBE26 /* YMCard.swift */; };
 		5C24AF242BD12F2A00ECBE26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C24AF232BD12F2A00ECBE26 /* Assets.xcassets */; };
 		5C24AF272BD12F2A00ECBE26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C24AF262BD12F2A00ECBE26 /* Preview Assets.xcassets */; };
+		5C24AF2E2BD19F7B00ECBE26 /* OzonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24AF2D2BD19F7B00ECBE26 /* OzonCard.swift */; };
+		5C24AF302BD2444100ECBE26 /* WBCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24AF2F2BD2444100ECBE26 /* WBCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C24AF1C2BD12F2800ECBE26 /* ShopCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C24AF1F2BD12F2800ECBE26 /* ShopCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCardApp.swift; sourceTree = "<group>"; };
-		5C24AF212BD12F2800ECBE26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C24AF212BD12F2800ECBE26 /* YMCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMCard.swift; sourceTree = "<group>"; };
 		5C24AF232BD12F2A00ECBE26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C24AF262BD12F2A00ECBE26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C24AF2D2BD19F7B00ECBE26 /* OzonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzonCard.swift; sourceTree = "<group>"; };
+		5C24AF2F2BD2444100ECBE26 /* WBCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				5C24AF1F2BD12F2800ECBE26 /* ShopCardApp.swift */,
-				5C24AF212BD12F2800ECBE26 /* ContentView.swift */,
+				5C24AF2D2BD19F7B00ECBE26 /* OzonCard.swift */,
+				5C24AF212BD12F2800ECBE26 /* YMCard.swift */,
+				5C24AF2F2BD2444100ECBE26 /* WBCard.swift */,
 				5C24AF232BD12F2A00ECBE26 /* Assets.xcassets */,
 				5C24AF252BD12F2A00ECBE26 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C24AF222BD12F2800ECBE26 /* ContentView.swift in Sources */,
+				5C24AF2E2BD19F7B00ECBE26 /* OzonCard.swift in Sources */,
+				5C24AF222BD12F2800ECBE26 /* YMCard.swift in Sources */,
+				5C24AF302BD2444100ECBE26 /* WBCard.swift in Sources */,
 				5C24AF202BD12F2800ECBE26 /* ShopCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
